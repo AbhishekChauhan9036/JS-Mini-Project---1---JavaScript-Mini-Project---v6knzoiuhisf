@@ -1,1 +1,80 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background: rgb(218, 99, 30);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.main-calc {
+	max-width: 30rem;
+	width: 90%;
+	background: #326d4c;
+	padding: 1rem;
+	border-radius: 1.5rem;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+	            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-calc header {
+	color: #8092b8;
+	border-bottom: 0.16rem dashed #80a7b8;
+	text-align: center;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	font-family: 'Montserrat', sans-serif;
+}
+.form {
+	margin: 2rem 0;
+}
+.form label{
+	font-family: 'Montserrat', sans-serif;
+	color: #eee;
+	display: block;
+	padding: 0.2rem 0;
+	font-weight: 200;
+}
+
+.form input {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 1.2rem;
+	border-bottom: 0.1rem solid #80a7b8; 
+}
+.form select {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #999;
+	font-size: 1rem;
+	border-bottom: 0.1rem solid #80a7b8; 
+}
+.btn {
+	background: #eee;
+	color: #32546d;
+	border: none;
+	padding: 10px;
+	border-radius: 1rem;
+	opacity: .7;
+	cursor: pointer;
+}
+.btn:hover {
+	opacity: .5;
+}
+
+.result {
+	color: #90a1ad;
+	font-family: 'Montserrat', sans-serif;
+}
+.result span, .result sup {
+	color: #fc8370;
+}
